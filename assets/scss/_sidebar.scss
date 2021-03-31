@@ -1,0 +1,7 @@
+.left-sidebar {
+  @extend %margin-bottom-lg;
+
+  .panel:last-child {
+    margin-bottom: 0;
+  }
+}
