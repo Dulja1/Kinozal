@@ -63,7 +63,7 @@
 }
 .panel {
   border: none;
-  background-color: darken($color-light, 6%);
+  background-color: darken($color-light, 4%);
   margin-bottom: $gap * 2;
 
   &-info > .panel-heading {
@@ -75,7 +75,18 @@
   }
 
   &-body {
-    border: 1px solid gray;
+    border: 1px solid $color-gray;
     border-radius: 0 0 4px 4px;
   }
+}
+
+.btn-lg,
+.input-lg,
+.input-group-lg > .form-control {
+  font-size: 0.875rem;
+  height: 46px;
+}
+
+.thumbnail {
+  transition: background-color 0.25s;
 }
